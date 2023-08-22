@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pdf_generate/MyView.dart';
+import 'package:pdf_generate/pre_order_print_view.dart';
 
 class Screen1 extends StatefulWidget {
   const Screen1({Key? key}) : super(key: key);
@@ -16,7 +16,7 @@ class _Screen1State extends State<Screen1> {
       body: Center(
         child: ElevatedButton(
           onPressed: (){
-            Navigator.of(context).push(MaterialPageRoute(builder: (context) => MyView(null, (_) => null)));
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => pre_order_print_view(null, (_) => null)));
           },
           child: Text("Click Here!"),
         ),

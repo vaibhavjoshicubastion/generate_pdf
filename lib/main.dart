@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pdf_generate/MyView.dart';
+import 'package:pdf_generate/pre_order_print_view.dart';
 import 'package:pdf_generate/PDFScreen.dart';
-import 'package:pdf_generate/SignatureView.dart';
+import 'package:pdf_generate/add_signature_screen.dart';
 
 import 'Screen1.dart';
 
